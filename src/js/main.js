@@ -52,6 +52,7 @@ window.poachingData.forEach(function(event, i) {
   if (event.lat) {
     var marker = leaflet.marker([event.lat, event.long], {
       icon: leaflet.divIcon({
+        className: "poaching-marker",
         iconSize: [15, 15]
       })
     });
@@ -63,6 +64,8 @@ window.poachingData.forEach(function(event, i) {
 
 });
 
+var currentMarker = null;
+
 var showDetails = function(date) {
   var data = lookup[date];
   if (!data) return;
@@ -70,6 +73,11 @@ var showDetails = function(date) {
   if (data.lat) {
     mapContainer.classList.remove("hide");
     map.flyTo([data.lat, data.long], 11);
+    if (currentMarker) {
+      currentMarker.classList.remove("active");
+    }
+    currentMarker = data.marker.getElement();
+    currentMarker.classList.add("active");
   } else {
     mapContainer.classList.add("hide");
   }

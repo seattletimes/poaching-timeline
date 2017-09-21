@@ -3,5 +3,7 @@
 
 <% if (data.photo) { %>
 <img src="./assets/photos/<%= data.photo %>">
-<%= data.description %>
+<%= data.description || "" %>
+<% } else { %>
+No image provided for this date.
 <% } %>
