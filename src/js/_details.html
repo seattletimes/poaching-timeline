@@ -1,0 +1,7 @@
+<h2><%= data.date %></h2>
+<h3>Hunting: <%= data.killed %></h3>
+
+<% if (data.photo) { %>
+<img src="./assets/photos/<%= data.photo %>">
+<%= data.description %>
+<% } %>

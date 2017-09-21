@@ -1,0 +1,20 @@
+{
+  "s3": {
+    "stage": {
+      "bucket": "projects-staging.seattletimes.com",
+      "path": "outdoor-jugular"
+    },
+    "live": {
+      "bucket": "projects.seattletimes.com",
+      "path": ""
+    }
+  },
+  "title": "",
+  "description": "",
+  "url": "",
+  "image": "assets/social.jpg",
+  "sheets": ["1QyFSLXeLe2CVodTZJUvruU1SYCb7c1Z9t_8T3MtK8ew"],
+  "standout": false,
+  "embedded": true,
+  "production": false
+}

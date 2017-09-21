@@ -1,0 +1,172 @@
+[
+  {
+    "date": "08/29/2015",
+    "lat": 46.34332,
+    "long": -121.6,
+    "killed": "bear",
+    "photo": "IMG_0116.jpg"
+  },
+  {
+    "date": "08/30/2015",
+    "killed": "bear",
+    "photo": "IMG_0130.jpg"
+  },
+  {
+    "date": "09/05/2015",
+    "lat": 46.3964,
+    "long": -121.542,
+    "killed": "bear"
+  },
+  {
+    "date": "09/12/2015",
+    "lat": 46.21919,
+    "long": -121.703,
+    "killed": "bear",
+    "photo": "IMG_0172.jpg"
+  },
+  {
+    "date": "09/19/2015",
+    "lat": 46.2343,
+    "long": -121.644,
+    "killed": "bear",
+    "photo": "IMG_0193.jpg"
+  },
+  {
+    "date": "09/26/2015",
+    "lat": 46.1622,
+    "long": -121.707,
+    "killed": "bear",
+    "photo": "IMG_0229.jpg"
+  },
+  {
+    "date": "09/27/2015",
+    "lat": 46.1516,
+    "long": -121.862,
+    "killed": "bear",
+    "photo": "IMG_0234.jpg"
+  },
+  {
+    "date": "10/03/2015",
+    "lat": 46.4646,
+    "long": -121.807,
+    "killed": "bear",
+    "photo": "0312~5003.jpg"
+  },
+  {
+    "date": "10/04/2015",
+    "killed": "bear",
+    "photo": "IMG_0324.jpg"
+  },
+  {
+    "date": "10/11/2015",
+    "lat": 46.1463,
+    "long": -121.768,
+    "killed": "bear",
+    "photo": "P1030929.jpg"
+  },
+  {
+    "date": "11/07/2015",
+    "lat": 46.2974,
+    "long": -122.208,
+    "killed": "elk",
+    "photo": "P1000962.jpg"
+  },
+  {
+    "date": "11/26/2015",
+    "lat": 46.3882,
+    "long": -121.627,
+    "killed": "bobcat",
+    "photo": "0512~5003.jpg"
+  },
+  {
+    "date": "11/27/2015",
+    "lat": 46.2903,
+    "long": -122.22,
+    "killed": "elk",
+    "photo": "IMG_0941.jpg"
+  },
+  {
+    "date": "12/25/2015",
+    "lat": 45.8669,
+    "long": -123.419,
+    "killed": "bobcat"
+  },
+  {
+    "date": "01/24/2016",
+    "lat": 45.8415,
+    "long": -123.433,
+    "killed": "bobcat"
+  },
+  {
+    "date": "05/15/2016",
+    "lat": 46.08143,
+    "long": -121.857,
+    "killed": "bear"
+  },
+  {
+    "date": "05/18/2016",
+    "killed": "bear",
+    "photo": "P1030884.jpg"
+  },
+  {
+    "date": "05/26/2016",
+    "lat": 46.1487,
+    "long": -121.877,
+    "killed": "bear",
+    "photo": "P1000063.jpg"
+  },
+  {
+    "date": "05/27/2016",
+    "lat": 46.113,
+    "long": -121.85,
+    "killed": "bear",
+    "photo": "P1010070.jpg",
+    "description": "WDFW GPS device at the location"
+  },
+  {
+    "date": "05/31/2016",
+    "lat": 46.1163,
+    "long": -121.886,
+    "killed": "bear"
+  },
+  {
+    "date": "06/10/2016",
+    "lat": 45.8136,
+    "long": -122.059,
+    "killed": "bear",
+    "photo": "IMG_1704.jpg"
+  },
+  {
+    "date": "06/12/2016",
+    "lat": 46.3453,
+    "long": -121.51,
+    "killed": "bear",
+    "photo": "P1010092.jpg",
+    "description": "Shotgun slug recovered from the bear remains"
+  },
+  {
+    "date": "09/17/2016",
+    "killed": "bear"
+  },
+  {
+    "date": "09/24/2016",
+    "lat": 46.4037,
+    "long": -121.526,
+    "killed": "bear",
+    "photo": "IMG_2129.jpg"
+  },
+  {
+    "date": "09/25/2016",
+    "lat": 46.413,
+    "long": -121.502,
+    "killed": "bear",
+    "photo": "P1000052.jpg"
+  },
+  {
+    "date": "11/13/2016",
+    "lat": 46.2842,
+    "long": -122.1902,
+    "killed": "elk",
+    "photo": "IMG_2380.jpg"
+  }
+]

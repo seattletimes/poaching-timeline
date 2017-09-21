@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <%= t.include("partials/_head.html", grunt.data.json) %>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+
+    <responsive-child>
+      <main class="interactive">
+        <div class="timeline-container">
+          <svg class="timeline" viewBox="0 0 600 20" width="600" height="20"></svg>
+        </div>
+        <div class="event">
+          <div class="details"></div>
+          <div class="map-container">
+            <leaflet-map class="locator" fixed>
+              <tile-layer layer="esriTopographic"></tile-layer>
+            </leaflet-map>
+          </div>
+        </div>
+      </main>
+    </responsive-child>
+
+    <script>
+window.poachingData = <%= JSON.stringify(json.events) %>;
+    </script>
+
+    <script src="app.js" async></script>
+    <% if (json.project.production) { %>
+    <%= !json.project.embedded ? t.include("partials/_analytics.html") : "" %>
+    <%= t.include("partials/_workHere.html") %>
+    <% } %>
+  </body>
+</html>
