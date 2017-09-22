@@ -25,7 +25,7 @@
     }
 
     &.photo .inner {
-      fill: fade(@df-blue, 20%);
+      fill: fade(@st-dark-blue, 40%);
     }
 
     &.mapped .inner {
@@ -39,7 +39,7 @@
     }
 
     &.active.photo .inner {
-      fill: @df-blue;
+      fill: @st-dark-blue;
     }
 
     &.active.mapped .inner {
@@ -110,11 +110,18 @@
     }
 
     .case-note {
-      font-style: italic;
-      font-family: @df-serif;
       padding: 16px;
       background: @df-off-white;
       margin-top: 8px;
+
+      .text {
+        font-style: italic;
+        font-family: @df-serif;
+      }
+
+      .attribution {
+        text-align: right;
+      }
     }
   }
 

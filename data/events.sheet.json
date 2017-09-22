@@ -20,7 +20,8 @@
     "lat": 46.3964,
     "long": -121.542,
     "killed": "bear",
-    "case_note": "\"Through messages Haynes’ indicates to his mother he didn’t killl anything however they used dogs to pursue multiple bear, cougar, and bobcat between September 5, 2015 and September 7, 2015.\" &mdash; excerpt from WDFW case file"
+    "case_note": "\"Through messages Haynes’ indicates to his mother he didn’t killl anything however they used dogs to pursue multiple bear, cougar, and bobcat between September 5, 2015 and September 7, 2015.\"",
+    "attribution": "excerpt from WDFW case file"
   },
   {
     "date": "09/12/2015",
@@ -117,6 +118,7 @@
   },
   {
     "date": "05/12/2016",
+    "killed": "bear",
     "photo": "IMG_1606.jpg",
     "portrait": "Y",
     "description": "Image of Haynes holding a dead bear, sent to his girlfriend via text message."
@@ -126,7 +128,8 @@
     "lat": 46.08143,
     "long": -121.857,
     "killed": "bear",
-    "case_note": "\"During my interview with Haynes I did not ask him about this incident. Due to the large amounts of incidents captured by Haynes I overlooked this date.\" &mdash; excerpt from WDFW case file"
+    "case_note": "\"During my interview with Haynes I did not ask him about this incident. Due to the large amounts of incidents captured by Haynes I overlooked this date.\"",
+    "attribution": "excerpt from WDFW case file"
   },
   {
     "date": "05/18/2016",
