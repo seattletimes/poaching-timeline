@@ -4,12 +4,16 @@
     "lat": 46.34332,
     "long": -121.6,
     "killed": "bear",
-    "photo": "IMG_0116.jpg"
+    "photo": "IMG_0116.jpg",
+    "portrait": "Y",
+    "description": "Dogs surround a dead bear. Using dogs for bear hunting is illegal in Washington."
   },
   {
     "date": "08/30/2015",
     "killed": "bear",
-    "photo": "IMG_0130.jpg"
+    "photo": "IMG_0130.jpg",
+    "portrait": "Y",
+    "description": "A screenshot from a video of Haynes and S. Dills killing a bear as it crosses a road to get away from dogs."
   },
   {
     "date": "09/05/2015",
@@ -22,68 +26,93 @@
     "lat": 46.21919,
     "long": -121.703,
     "killed": "bear",
-    "photo": "IMG_0172.jpg"
+    "photo": "IMG_0172.jpg",
+    "portrait": "Y",
+    "description": "W. Haynes posing with a bear. These photos were sent to Haynes from a friend's phone, later used to locate the hunt by WDFW officials."
   },
   {
     "date": "09/19/2015",
     "lat": 46.2343,
     "long": -121.644,
     "killed": "bear",
-    "photo": "IMG_0193.jpg"
+    "photo": "IMG_0193.jpg",
+    "portrait": "Y",
+    "description": "One of the hunters looks at a treed bear during a hunt on September 19, 2015."
   },
   {
     "date": "09/26/2015",
     "lat": 46.1622,
     "long": -121.707,
     "killed": "bear",
-    "photo": "IMG_0229.jpg"
+    "photo": "IMG_0229.jpg",
+    "portrait": "Y",
+    "description": "A photo of hunting dogs taken by W. Haynes. The dogs wear GPS tracking collars."
   },
   {
     "date": "09/27/2015",
     "lat": 46.1516,
     "long": -121.862,
     "killed": "bear",
-    "photo": "IMG_0234.jpg"
+    "photo": "IMG_0234.jpg",
+    "portrait": "Y",
+    "description": "W. Haynes posing with his shotgun, which was later recovered from his home. According to WDFW interviews with Haynes, the blood splatter is from a bear killed that day."
   },
   {
     "date": "10/03/2015",
     "lat": 46.4646,
     "long": -121.807,
     "killed": "bear",
-    "photo": "0312~5003.jpg"
+    "photo": "0312~5003.jpg",
+    "portrait": "Y",
+    "description": "Hunters and dogs at the base of a tree, looking up at a bear."
   },
   {
     "date": "10/04/2015",
     "killed": "bear",
-    "photo": "IMG_0324.jpg"
+    "photo": "IMG_0324.jpg",
+    "portrait": "Y",
+    "description": "Hounds surround a dead bear. No GPS coordinates were recovered from thsi photo, but cellular tower pings data was used by WDFW detectives to determine the hunt's location."
+  },
+  {
+    "date": "10/10/2015",
+    "killed": "bobcat",
+    "photo": "20151010_114132_Redacted.jpg",
+    "portrait": "Y",
+    "description": "A redacted photo from the WDFW case file of a hunter with a bobcat, taken from Haynes' phone."
   },
   {
     "date": "10/11/2015",
     "lat": 46.1463,
     "long": -121.768,
     "killed": "bear",
-    "photo": "P1030929.jpg"
+    "photo": "P1030929.jpg",
+    "description": "Investigator photo of bones from the site of a bear hunt."
   },
   {
     "date": "11/07/2015",
     "lat": 46.2974,
     "long": -122.208,
     "killed": "elk",
-    "photo": "P1000962.jpg"
+    "photo": "P1000962.jpg",
+    "description": "Investigator photo of bones from the site of an illegal elk hunt."
   },
   {
     "date": "11/26/2015",
     "lat": 46.3882,
     "long": -121.627,
     "killed": "bobcat",
-    "photo": "0512~5003.jpg"
+    "photo": "0512~5003.jpg",
+    "portrait": "Y",
+    "description": "Photo from Haynes' phone of a treed bobcat, taken down the site of a hunting rifle."
   },
   {
     "date": "11/27/2015",
     "lat": 46.2903,
     "long": -122.22,
     "killed": "elk",
-    "photo": "IMG_0941.jpg"
+    "photo": "IMG_0941.jpg",
+    "portrait": "Y",
+    "description": "J. Dills standing over a dead elk, in a photo recovered from Haynes' phone. Investigators later traced this photo to the same location using GPS metadata."
   },
   {
     "date": "12/25/2015",
@@ -106,14 +135,16 @@
   {
     "date": "05/18/2016",
     "killed": "bear",
-    "photo": "P1030884.jpg"
+    "photo": "P1030884.jpg",
+    "description": "Investigator photo of a skull at the site of a bear hunt."
   },
   {
     "date": "05/26/2016",
     "lat": 46.1487,
     "long": -121.877,
     "killed": "bear",
-    "photo": "P1000063.jpg"
+    "photo": "P1000063.jpg",
+    "description": "Investigator photo of a jawbone at the site of a bear hunt."
   },
   {
     "date": "05/27/2016",
@@ -134,7 +165,9 @@
     "lat": 45.8136,
     "long": -122.059,
     "killed": "bear",
-    "photo": "IMG_1704.jpg"
+    "photo": "IMG_1704.jpg",
+    "portrait": "Y",
+    "description": "Photo of Haynes with a dead bear."
   },
   {
     "date": "06/12/2016",
@@ -153,20 +186,24 @@
     "lat": 46.4037,
     "long": -121.526,
     "killed": "bear",
-    "photo": "IMG_2129.jpg"
+    "photo": "IMG_2129.jpg",
+    "description": "Dogs surrounding a dead bear."
   },
   {
     "date": "09/25/2016",
     "lat": 46.413,
     "long": -121.502,
     "killed": "bear",
-    "photo": "P1000052.jpg"
+    "photo": "P1000052.jpg",
+    "description": "Investigators lay out bones found at the site of a bear hunt."
   },
   {
     "date": "11/13/2016",
     "lat": 46.2842,
     "long": -122.1902,
     "killed": "elk",
-    "photo": "IMG_2380.jpg"
+    "photo": "IMG_2380.jpg",
+    "portrait": "Y",
+    "description": "Haynes posing with an elk near the Spirit Lake Highway."
   }
 ]

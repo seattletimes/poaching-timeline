@@ -40,9 +40,13 @@ var onClick = function() {
 window.poachingData.forEach(function(event, i) {
   lookup[event.date] = event;
 
+  var type = event.photo ? "photo" : "no-photo";
+  type += event.lat ? " mapped" : " no-map";
+  if (!i) type += " active";
+
   var center = (width - height * 2) * i / (poachingData.length - 1) + height;
 
-  var g = m("g", { class: "dot " + (i ? "" : "active"), id: event.date }, [
+  var g = m("g", { class: "dot " + type, id: event.date }, [
     m("circle", { cx: center, cy: height * .5, r: height * .45, class: "outer" }),
     m("circle", { cx: center, cy: height * .5, r: height * .25, class: "inner" })
   ]);
@@ -60,6 +64,10 @@ window.poachingData.forEach(function(event, i) {
     marker.addTo(map);
   }
 
+  var [month, day, year] = event.date.split("/").map(n => parseInt(n, 10));
+  var months = [null, "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+  event.dateText = `${months[month]} ${day}, ${year}`;
+
   svg.appendChild(g);
 
 });
@@ -72,7 +80,9 @@ var showDetails = function(date) {
   details.innerHTML = template(data);
   if (data.lat) {
     mapContainer.classList.remove("hide");
-    map.flyTo([data.lat, data.long], 11);
+    var img = $.one("img", details);
+    if (img) img.onload = () => map.invalidateSize();
+    map.flyTo([data.lat, data.long], 8);
     if (currentMarker) {
       currentMarker.classList.remove("active");
     }
@@ -84,3 +94,19 @@ var showDetails = function(date) {
 };
 
 showDetails(window.poachingData[0].date);
+
+var clickIteration = function() {
+  var currentDot = $.one(".dot.active");
+  var currentDate = currentDot.id;
+  var currentItem = lookup[currentDate];
+  var currentIndex = window.poachingData.indexOf(currentItem);
+  var index = currentIndex + (this.classList.contains("next") ? 1 : -1);
+  if (index < 0) index = 0;
+  if (index >= window.poachingData.length) index = window.poachingData.length - 1;
+  var dest = window.poachingData[index];
+  showDetails(dest.date);
+  savage(currentDot).removeClass("active");
+  savage(`[id="${dest.date}"]`).addClass("active");
+};
+
+$(".iterate button").forEach(el => el.addEventListener("click", clickIteration));

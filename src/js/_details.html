@@ -1,9 +1,10 @@
-<h2><%= data.date %></h2>
-<h3>Hunting: <%= data.killed %></h3>
+<h2><%= data.dateText %> - <%= data.killed %></h2>
 
 <% if (data.photo) { %>
-<img src="./assets/photos/<%= data.photo %>">
-<%= data.description || "" %>
+<div class="caption"><%= data.description || "" %></div>
+<div class="photo-block">
+  <img src="./assets/photos/<%= data.photo %>">
+</div>
 <% } else { %>
 No image provided for this date.
 <% } %>

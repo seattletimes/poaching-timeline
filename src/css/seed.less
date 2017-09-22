@@ -7,6 +7,7 @@
 .timeline {
   display: block;
   margin: auto;
+  max-width: 100%;
 
   .time {
     stroke: black;
@@ -23,52 +24,125 @@
       fill: white;
     }
 
-    &.active .inner {
-      fill: @df-goldenrod;
+    &.photo .inner {
+      fill: fade(@df-blue, 20%);
+    }
+
+    &.mapped .inner {
+      fill: fade(@st-dark-green, 40%);
+    }
+
+    &.active .outer {
+      // stroke-width: 2px;
+      stroke: @df-dark-gray;
+      fill: @df-off-white;
+    }
+
+    &.active.photo .inner {
+      fill: @df-blue;
+    }
+
+    &.active.mapped .inner {
+      fill: @st-dark-green;
     }
 
   }
 }
 
+.iterate {
+  .display-flex();
+  .justify-content(space-between);
+
+  button {
+    background: @df-off-white;
+    border: none;
+    font-size: 13px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 4px 8px;
+    font-weight: normal;
+    border-radius: 4px;
+
+    &:hover, &:focus {
+      background: @df-light-gray;
+    }
+  }
+}
+
 .event {
   position: relative;
+  .display-flex();
+  padding: 20px;
+
+  @media @mobile {
+    display: block;
+  }
 
   .details {
-    .photos {
-      .display-flex();
+    .flex(0 0 50%);
+    padding-right: 20px;
 
-      img {
-        display: block;
-        max-height: 300px;
-      }
+    .caption {
+      font-size: 15px;
+      padding-bottom: 8px;
+    }
+
+    .photo-block {
+      @light: @df-light-gray;
+      @dark: darken(@df-light-gray, 10%);
+      background: repeating-linear-gradient(45deg,
+        @light 0, @light 10px,
+        @dark 10px, @dark 20px,
+        @light 20px
+      );
+      padding: 8px;
+    }
+    
+    img {
+      display: block;
+      margin: auto;
+      max-height: 300px;
     }
   }
 
   .map-container {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    border: 2px solid white;
-    box-shadow: 4px 4px 8px fade(black, 20%);
-    background: @df-light-gray;
-    width: 200px;
+    .flex(0 0 50%);
+    position: relative;
+    .flex-order(1);
 
     &.hide {
-      display: none;
+      leaflet-map {
+        display: none;
+      }
+      .no-map {
+        display: block;
+      }
     }
 
     &::before {
       display: block;
       content: "";
       padding-bottom: 100%;
+      @media @mobile {
+        padding-bottom: percentage(9 / 16);
+      }
     }
 
-    leaflet-map {
+    leaflet-map, .no-map {
       position: absolute;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%;
+    }
+
+    .no-map {
+      display: none;
+      background: @df-light-gray;
+      color: @df-middle-gray;
+      font-size: 20px;
+      text-align: center;
+      padding: 20px;
     }
   }
 }
