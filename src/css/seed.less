@@ -76,11 +76,16 @@
 
   @media @mobile {
     display: block;
+    padding: 20px 0;
   }
 
   .details {
     .flex(0 0 50%);
     padding-right: 20px;
+
+    @media @mobile {
+      padding-right: 0;
+    }
 
     .caption {
       font-size: 15px;
@@ -164,4 +169,16 @@
   &.active {
     background: @df-goldenrod;
   }
+}
+
+.source {
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.credit {
+  text-align: right;
+  font-size: 14px;
+  font-style: italic;
+  text-transform: uppercase;
 }
