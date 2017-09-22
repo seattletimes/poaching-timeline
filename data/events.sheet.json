@@ -19,7 +19,8 @@
     "date": "09/05/2015",
     "lat": 46.3964,
     "long": -121.542,
-    "killed": "bear"
+    "killed": "bear",
+    "case_note": "\"Through messages Haynes’ indicates to his mother he didn’t killl anything however they used dogs to pursue multiple bear, cougar, and bobcat between September 5, 2015 and September 7, 2015.\" &mdash; excerpt from WDFW case file"
   },
   {
     "date": "09/12/2015",
@@ -28,7 +29,7 @@
     "killed": "bear",
     "photo": "IMG_0172.jpg",
     "portrait": "Y",
-    "description": "W. Haynes posing with a bear. These photos were sent to Haynes from a friend's phone, later used to locate the hunt by WDFW officials."
+    "description": "Haynes posing with a bear. These photos were sent to Haynes from a friend's phone, later used to locate the hunt by WDFW officials."
   },
   {
     "date": "09/19/2015",
@@ -46,7 +47,7 @@
     "killed": "bear",
     "photo": "IMG_0229.jpg",
     "portrait": "Y",
-    "description": "A photo of hunting dogs taken by W. Haynes. The dogs wear GPS tracking collars."
+    "description": "A photo of hunting dogs taken by Haynes. The dogs wear GPS tracking collars."
   },
   {
     "date": "09/27/2015",
@@ -55,7 +56,7 @@
     "killed": "bear",
     "photo": "IMG_0234.jpg",
     "portrait": "Y",
-    "description": "W. Haynes posing with his shotgun, which was later recovered from his home. According to WDFW interviews with Haynes, the blood splatter is from a bear killed that day."
+    "description": "Haynes posing with his shotgun, which was later recovered from his home. According to WDFW interviews with Haynes, the blood splatter is from a bear killed that day."
   },
   {
     "date": "10/03/2015",
@@ -115,22 +116,17 @@
     "description": "J. Dills standing over a dead elk, in a photo recovered from Haynes' phone. Investigators later traced this photo to the same location using GPS metadata."
   },
   {
-    "date": "12/25/2015",
-    "lat": 45.8669,
-    "long": -123.419,
-    "killed": "bobcat"
-  },
-  {
-    "date": "01/24/2016",
-    "lat": 45.8415,
-    "long": -123.433,
-    "killed": "bobcat"
+    "date": "05/12/2016",
+    "photo": "IMG_1606.jpg",
+    "portrait": "Y",
+    "description": "Image of Haynes holding a dead bear, sent to his girlfriend via text message."
   },
   {
     "date": "05/15/2016",
     "lat": 46.08143,
     "long": -121.857,
-    "killed": "bear"
+    "killed": "bear",
+    "case_note": "\"During my interview with Haynes I did not ask him about this incident. Due to the large amounts of incidents captured by Haynes I overlooked this date.\" &mdash; excerpt from WDFW case file"
   },
   {
     "date": "05/18/2016",
@@ -155,12 +151,6 @@
     "description": "WDFW GPS device at the location"
   },
   {
-    "date": "05/31/2016",
-    "lat": 46.1163,
-    "long": -121.886,
-    "killed": "bear"
-  },
-  {
     "date": "06/10/2016",
     "lat": 45.8136,
     "long": -122.059,
@@ -176,10 +166,6 @@
     "killed": "bear",
     "photo": "P1010092.jpg",
     "description": "Shotgun slug recovered from the bear remains"
-  },
-  {
-    "date": "09/17/2016",
-    "killed": "bear"
   },
   {
     "date": "09/24/2016",

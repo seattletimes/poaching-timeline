@@ -88,9 +88,9 @@
     }
 
     .photo-block {
-      @light: @df-light-gray;
-      @dark: darken(@df-light-gray, 10%);
-      background: repeating-linear-gradient(45deg,
+      @light: @df-off-white;
+      @dark: darken(@light, 5%);
+      background: repeating-linear-gradient(37deg,
         @light 0, @light 10px,
         @dark 10px, @dark 20px,
         @light 20px
@@ -101,7 +101,15 @@
     img {
       display: block;
       margin: auto;
-      max-height: 300px;
+      max-height: 360px;
+    }
+
+    .case-note {
+      font-style: italic;
+      font-family: @df-serif;
+      padding: 16px;
+      background: @df-off-white;
+      margin-top: 8px;
     }
   }
 
@@ -124,7 +132,7 @@
       content: "";
       padding-bottom: 100%;
       @media @mobile {
-        padding-bottom: percentage(9 / 16);
+        padding-bottom: percentage(6 / 16);
       }
     }
 
@@ -138,8 +146,9 @@
 
     .no-map {
       display: none;
-      background: @df-light-gray;
-      color: @df-middle-gray;
+      background: @df-off-white;
+      color: @df-dark-gray;
+      font-style: italic;
       font-size: 20px;
       text-align: center;
       padding: 20px;

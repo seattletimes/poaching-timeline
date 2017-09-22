@@ -1,10 +1,18 @@
 <h2><%= data.dateText %> - <%= data.killed %></h2>
 
 <% if (data.photo) { %>
-<div class="caption"><%= data.description || "" %></div>
+<div class="caption">
+  <%= data.description || "" %>
+</div>
 <div class="photo-block">
   <img src="./assets/photos/<%= data.photo %>">
 </div>
 <% } else { %>
 No image provided for this date.
+
+  <% if (data.case_note) { %>
+  <div class="case-note">
+    <%= data.case_note %>
+  </div>
+  <% } %>
 <% } %>
