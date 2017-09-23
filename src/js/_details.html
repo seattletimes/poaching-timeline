@@ -1,17 +1,16 @@
 <h2><%= data.dateText %> - <%= data.killed %></h2>
 
-<% if (data.description) { %>
-<div class="caption">
-  <%= data.description %>
-</div>
-<% } %>
-
 <% if (data.case_note) { %>
 <div class="case-note">
   <div class="text"><%= data.case_note %></div>
   <div class="attribution">&mdash; <%= data.attribution %></div>
 </div>
+<% } %>
 
+<% if (data.description) { %>
+<div class="caption">
+  <%= data.description %>
+</div>
 <% } %>
 
 <% if (data.photo) { %>
