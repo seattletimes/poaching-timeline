@@ -86,7 +86,7 @@ var showDetails = function(date) {
     mapContainer.classList.remove("hide");
     var img = $.one("img", details);
     if (img) img.onload = () => map.invalidateSize();
-    map.flyTo([data.lat, data.long], 8);
+    map.flyTo([data.lat, data.long], 7);
     if (currentMarker) {
       currentMarker.classList.remove("active");
     }
