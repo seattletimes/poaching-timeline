@@ -1,0 +1,13 @@
+<div class="photo-caption">
+  <% if (data.photo) { %>
+  <div class="photo-block">
+    <img src="./assets/photos/<%= data.photo %>">
+  </div>
+  <% } %>
+
+  <% if (data.description) { %>
+  <div class="caption">
+    <%= data.description %>
+  </div>
+  <% } %>
+</div>

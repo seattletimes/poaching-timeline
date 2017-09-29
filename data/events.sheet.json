@@ -6,21 +6,27 @@
     "killed": "bear",
     "photo": "IMG_0116.jpg",
     "portrait": "Y",
-    "description": "Dogs surround a dead bear. Using dogs for bear hunting is illegal in Washington."
+    "description": "Dogs surround a dead bear. Using dogs for bear hunting, unless permitted by the Washington Department of Fish & Wildlife for its purposes, is illegal in Washington.",
+    "case_note": "\"I asked Tretiak if he ever hunted bear with the Dills ... He said he felt guilty and very bad about it and what he did. He indicated he didn’t notify us because of the bear he shot and he does not agree with what the Dills’ and their crew were doing to the animals.\"",
+    "attribution": "excerpt from WDFW case file"
   },
   {
     "date": "08/30/2015",
     "killed": "bear",
     "photo": "IMG_0130.jpg",
     "portrait": "Y",
-    "description": "A screenshot from a video of Haynes and S. Dills killing a bear as it crosses a road to get away from dogs."
+    "description": "A screenshot from a video that police say shows Haynes and a 17-year-old suspect killing a bear as it crosses a road while fleeing hunting dogs. ",
+    "case_note": "\"This video shows W. Haynes and [a 17-year-old suspect] shoot a bear crossing a road while being chased by dogs. J. Dills, E. Dills, and multiple kids can also be seen in the video.\" \"... Haynes indicated these events took place in the Gifford Pinchot National Forest, south of Takhlakh Lake...\"",
+    "attribution": "excerpt from WDFW case file"
   },
   {
     "date": "09/05/2015",
     "lat": 46.3964,
     "long": -121.542,
     "killed": "bear",
-    "case_note": "\"Through messages Haynes’ indicates to his mother he didn’t killl anything however they used dogs to pursue multiple bear, cougar, and bobcat between September 5, 2015 and September 7, 2015.\"",
+    "photo": "textexcerpt-090515.jpg",
+    "description": "A text message between Haynes and his mother that police say they found on Haynes' seized phone.",
+    "case_note": "\"Through messages Haynes’ indicates to his mother he didn’t killl anything however they used dogs to pursue multiple bear, cougar, and bobcat between September 5, 2015 and September 7, 2015.\" ",
     "attribution": "excerpt from WDFW case file"
   },
   {
@@ -30,7 +36,9 @@
     "killed": "bear",
     "photo": "IMG_0172.jpg",
     "portrait": "Y",
-    "description": "Haynes posing with a bear. These photos were sent to Haynes from a friend's phone, later used to locate the hunt by WDFW officials."
+    "description": "Haynes posing with a bear. Police say these photos were sent to Haynes from a friend's phone, and GPS coordinates attached the photo were used by WDFW officers to locate the location of the alleged killing.",
+    "case_note": "\"During my interview with W. Haynes (sic) indicated he shot this bear near Forest Service Road 23 in WAshington. ... W. Haynes said he used his camouflage shotgun seen in the photos to kill this bear. W. Haynes kept this bear and had it made into a rug by a taxidermist. During the serving of the search warrant we seized the camouflage shotgun as well as the hide of the above referenced bear.\" ",
+    "attribution": "excerpt from WDFW case file"
   },
   {
     "date": "09/19/2015",
@@ -39,7 +47,9 @@
     "killed": "bear",
     "photo": "IMG_0193.jpg",
     "portrait": "Y",
-    "description": "One of the hunters looks at a treed bear during a hunt on September 19, 2015."
+    "description": "A man looks at a bear, allegedly chased into a tree by dogs, during a September hunt.",
+    "case_note": "\"Haynes’ mother asks him if he was hunting for bear. He responds by saying 'Yeah. Seen 2 bears one coal black one and a cinnamon/blonde one they were both 100 both pounds so we let them go.'\"",
+    "attribution": "excerpt from WDFW case file"
   },
   {
     "date": "09/26/2015",
@@ -48,7 +58,9 @@
     "killed": "bear",
     "photo": "IMG_0229.jpg",
     "portrait": "Y",
-    "description": "A photo of hunting dogs taken by Haynes. The dogs wear GPS tracking collars."
+    "description": "A photo of hunting dogs police say was taken by Haynes. The dogs wear GPS tracking collars.",
+    "case_note": "\"I asked W. Haynes to describe how they hunt these bears. He indicated they drive around in trucks with dogs at the front of the truck and the dog box. He said the dogs then strike off the truck. Note: strike means when a dog catches a scent of an animal trained to pursue. He said they usually take 2 or 3 trucks and they have radios to communicate between vehicles.\"",
+    "attribution": "excerpt from WDFW case file"
   },
   {
     "date": "09/27/2015",
@@ -57,7 +69,9 @@
     "killed": "bear",
     "photo": "IMG_0234.jpg",
     "portrait": "Y",
-    "description": "Haynes posing with his shotgun, which was later recovered from his home. According to WDFW interviews with Haynes, the blood splatter is from a bear killed that day."
+    "description": "Haynes posing with a shotgun that police say was later recovered from his home. The blood spatters on Haynes' face are from a bear that was shot that day. ",
+    "case_note": "\"I asked W. Haynes about the blood on his gun and face, he said it was from the bear. He got close to the bear and as the dogs chewed on the bear they splashed blood over his face.\"",
+    "attribution": "excerpt from WDFW case file"
   },
   {
     "date": "10/03/2015",
@@ -66,21 +80,27 @@
     "killed": "bear",
     "photo": "0312~5003.jpg",
     "portrait": "Y",
-    "description": "Hunters and dogs at the base of a tree, looking up at a bear."
+    "description": "Suspects and hunting dogs stand at the base of a tree. The dogs allegedly chased a bear up the tree.  ",
+    "case_note": "\"Officer Bahrenburg and I visited the area where W. Haynes’ cellular device captured the above referenced images on this day. We were able to match up the trees seen in images captured by W. Haynes’ cellular device to the area where we were standing. We searched the area for bear parts but did not find any at this location.\"",
+    "attribution": "excerpt from WDFW case file"
   },
   {
     "date": "10/04/2015",
     "killed": "bear",
     "photo": "IMG_0324.jpg",
     "portrait": "Y",
-    "description": "Hounds surround a dead bear. No GPS coordinates were recovered from thsi photo, but cellular tower pings data was used by WDFW detectives to determine the hunt's location."
+    "description": "Hounds surround a dead bear. No GPS coordinates were recovered from this photo, but WDFW investigators were able to triangulate and map its location using pings from a cellular tower, an officer wrote in an investigative report. ",
+    "case_note": "\"W. Haynes indicated he used his camo shotgun to kill the bear. W. Haynes also indicated they left the bear behind but does not remember.\"",
+    "attribution": "excerpt from WDFW case file"
   },
   {
     "date": "10/10/2015",
     "killed": "bobcat",
     "photo": "20151010_114132_Redacted.jpg",
     "portrait": "Y",
-    "description": "A redacted photo from the WDFW case file of a hunter with a bobcat, taken from Haynes' phone."
+    "description": "A redacted photo from the WDFW case file shows a hunter with a dead bobcat. Police say it was taken from Haynes' seized phone. Officers are pursuing cases against more suspects. ",
+    "case_note": "\"W. Haynes indicated [redacted] shot the bobcat ... [redacted] took the bobcat with him.\"",
+    "attribution": "excerpt from WDFW case file"
   },
   {
     "date": "10/11/2015",
@@ -88,7 +108,9 @@
     "long": -121.768,
     "killed": "bear",
     "photo": "P1030929.jpg",
-    "description": "Investigator photo of bones from the site of a bear hunt."
+    "description": "Evidence photos taken by investigators show bones at the site where they believe a cub bear was killed.  ",
+    "case_note": "\"We were able to find the location of the GPS coordinates and match up the area to the images captured by W. Haynes’ cellular device. As we checked the area for bear remains, we found remains of a cub bear.\"",
+    "attribution": "excerpt from WDFW case file"
   },
   {
     "date": "11/07/2015",
@@ -96,7 +118,9 @@
     "long": -122.208,
     "killed": "elk",
     "photo": "P1000962.jpg",
-    "description": "Investigator photo of bones from the site of an illegal elk hunt."
+    "description": "A photo of bones at the site of an elk hunt WDFW investigators belive was illegal. Elk were allegedly killed in a special permit area that was not open during the time of the hunt.",
+    "case_note": "\"Based on the GPS coordinates of pictures showing J. Dills and Haynes inside a special permit only unit with 2 dead elk, our confirmation of these GPS coordinates as well as finding bones near these kill sites J. Dills and Haynes unlawfully killed 1 elk each in a special permit only area without possessing the permits necessary.\"",
+    "attribution": "excerpt from WDFW case file"
   },
   {
     "date": "11/26/2015",
@@ -105,7 +129,9 @@
     "killed": "bobcat",
     "photo": "0512~5003.jpg",
     "portrait": "Y",
-    "description": "Photo from Haynes' phone of a treed bobcat, taken down the site of a hunting rifle."
+    "description": "A photo from a phone seized from a phone police say belonged to Haynes shows a bobcat, in a tree, with a scope trained on the animal. ",
+    "case_note": "\"On November 25, 2015 Haynes text messages J. Dills and says \"you ready to kill everything?!\" J. Dills says \"well duh!\" Hayne (sic) responds saying \"I'm a little trigger happy lol\" J. Dills then responds saying \"me to lol\"",
+    "attribution": "excerpt from WDFW case file"
   },
   {
     "date": "11/27/2015",
@@ -114,28 +140,38 @@
     "killed": "elk",
     "photo": "IMG_0941.jpg",
     "portrait": "Y",
-    "description": "J. Dills standing over a dead elk, in a photo recovered from Haynes' phone. Investigators later traced this photo to the same location using GPS metadata."
+    "description": "According to investigator's reports, Joseph Dills is pictured standing over an elk killed by his girlfriend, Aubri McKenna. ",
+    "case_note": "\"During an interview with Haynes on March 12, 2017 with WDFW Police Haynes indicated that on this day Aubri McKenna, J. Dills and himself were present for this hunt. Haynes indicated that Aubri shot this elk off of State Route 504 within the Loo-Wit GMU and they brought it back to Linn Dills’ residence.\"",
+    "attribution": "excerpt from WDFW case file"
   },
   {
     "date": "05/12/2016",
     "killed": "bear",
     "photo": "IMG_1606.jpg",
     "portrait": "Y",
-    "description": "Image of Haynes holding a dead bear, sent to his girlfriend via text message."
+    "description": "William Haynes allegedly texted his mother this photo. \"Killed that one yesterday up above cougar,\" he said, apparently referring to the town of Cougar, in Cowlitz County.  ",
+    "case_note": "\"The first video ... shows several dogs with GPS enabled dog callers chewing on a deceased black bear. In this video, I can hear a male voice calling saying 'get em’ Jip', encouraging this dog to continue chewing on the bear.\"",
+    "attribution": "excerpt from WDFW case file"
   },
   {
     "date": "05/15/2016",
     "lat": 46.08143,
     "long": -121.857,
     "killed": "bear",
-    "case_note": "\"During my interview with Haynes I did not ask him about this incident. Due to the large amounts of incidents captured by Haynes I overlooked this date.\"",
+    "photo": "Joseph-Dills_130B.jpg",
+    "description": "A photo police say was taken from Haynes' phone shows dogs surrounding a dead bear in a creek.",
+    "case_note": "\"During this time the season for black bears was only open for special permit hunting only. Neither Haynes nor J. Dills possessed such special permit to allow them to hunt for bear during this time.\"",
     "attribution": "excerpt from WDFW case file"
   },
   {
     "date": "05/18/2016",
+    "lat": 46.081425,
+    "long": -121.8564,
     "killed": "bear",
     "photo": "P1030884.jpg",
-    "description": "Investigator photo of a skull at the site of a bear hunt."
+    "description": "Investigators photographed a bear's skull found near Walupt Lake in the Gifford Pinchot Forest.",
+    "case_note": "\"I believe that the bear was left to waste and none of the meat was taken. This was due to decomposition present on the ground that created a \"burning\" effect on the foliage present.\"",
+    "attribution": "excerpt from WDFW case file"
   },
   {
     "date": "05/26/2016",
@@ -143,7 +179,9 @@
     "long": -121.877,
     "killed": "bear",
     "photo": "P1000063.jpg",
-    "description": "Investigator photo of a jawbone at the site of a bear hunt."
+    "description": "Investigators photographed a jawbone at the site where a bear was allegedly killed.",
+    "case_note": "\"Haynes indicated that J. Dills ultimately killed the bear with a pistol grip style shotgun and that the bear was left to waste as they did not take any of the meat.\"",
+    "attribution": "excerpt from WDFW case file"
   },
   {
     "date": "05/27/2016",
@@ -151,16 +189,30 @@
     "long": -121.85,
     "killed": "bear",
     "photo": "P1010070.jpg",
-    "description": "WDFW GPS device at the location"
+    "description": "A WDFW GPS device marks the location of the alleged killing. Investigators found video at the same location that they believe shows several people firing shots at a bear exhausted after running away from hunting dogs. ",
+    "case_note": "\"Once the bear was shot, it begins to tumble down a small hill where the group of dogs begins chewing on the bear.\"",
+    "attribution": "excerpt from WDFW case file"
+  },
+  {
+    "date": "06/01/2016",
+    "lat": 46.1163,
+    "long": -121.8863,
+    "killed": "bear",
+    "photo": "Joseph-Dills_162.jpg",
+    "description": "A screen shot from a video that allegedly shows a hunting dog crossing the road several yards in front of the vehicle.",
+    "case_note": "\n\"The video is filmed on a gravel road. At about the 5 second mark after J. Dills makes his remark about the dogs I see a dog that J. Dills uses for hunting cross the road in front of them and then head into the woods.\"",
+    "attribution": "excerpt from WDFW case file"
   },
   {
     "date": "06/10/2016",
     "lat": 45.8136,
     "long": -122.059,
-    "killed": "bear",
+    "killed": "bear and bobcat",
     "photo": "IMG_1704.jpg",
     "portrait": "Y",
-    "description": "Photo of Haynes with a dead bear."
+    "description": "Police say this photo shows William Haynes holding a dead bear.",
+    "case_note": "Using this coordinate we were able to find this location and match up photos taken by Haynes of the deceased bear. As well, we  were able to find numerous bones that would be consistent with a black bear at this location ...\"\"",
+    "attribution": "excerpt from WDFW case file"
   },
   {
     "date": "06/12/2016",
@@ -168,7 +220,25 @@
     "long": -121.51,
     "killed": "bear",
     "photo": "P1010092.jpg",
-    "description": "Shotgun slug recovered from the bear remains"
+    "description": "A shotgun slug was pulled from a patch of fur and sticks that police believe was the remains of a bear shot from a tree.",
+    "case_note": "\"Upon using the metal detector on this site we found a shotgun slug that had expanded due to impact. I observed that there was black hair that had been lodged in the bullet and was sticking out.\"",
+    "attribution": "excerpt from WDFW case file"
+  },
+  {
+    "date": "06/19/2016",
+    "killed": "bear",
+    "photo": "Joseph-Dills_178.jpg",
+    "description": "Police allege this photo shows Joseph Dills (right) firing at a bear.",
+    "case_note": "\"After J. Dillas and the other individual shoot at the bear, it then falls over in the middle of the road.\"",
+    "attribution": "excerpt from WDFW case file"
+  },
+  {
+    "date": "09/17/2016",
+    "killed": "bear",
+    "photo": "William-Haynes_147.jpg",
+    "description": "A photo allegedly taken from Haynes' cellphone shows an image of dogs surrounding a dead bear.",
+    "case_note": "\"Haynes indicated that he and E. Dills shot this bear. Haynes indicated that he used his camouflage shotgun and E. Dills used a high powered wood stock rifle. Haynes also indicated that the bear was left in the woods that day and none of the meat was taken.\"",
+    "attribution": "excerpt from WDFW case file"
   },
   {
     "date": "09/24/2016",
@@ -176,7 +246,9 @@
     "long": -121.526,
     "killed": "bear",
     "photo": "IMG_2129.jpg",
-    "description": "Dogs surrounding a dead bear."
+    "description": "Dogs surround a dead bear in a photo police say was found on Haynes' seized cellphone. ",
+    "case_note": "\"Later this same day ... Haynes and his girflriend [redacted] are text messaging back and forth. She asks him \"what are you doing\" Haynes responds by saying \"Up here at the phone booth. Getting service. We caught 3 bear today and was done hunting by noon.\"",
+    "attribution": "excerpt from WDFW case file"
   },
   {
     "date": "09/25/2016",
@@ -184,7 +256,9 @@
     "long": -121.502,
     "killed": "bear",
     "photo": "P1000052.jpg",
-    "description": "Investigators lay out bones found at the site of a bear hunt."
+    "description": "Investigators arranged bones allegedly found at a kill site linked the group. ",
+    "case_note": "\"Haynes indicated that the bear was left there in the woods to waste.\"",
+    "attribution": "excerpt from WDFW case file"
   },
   {
     "date": "11/13/2016",
@@ -193,6 +267,8 @@
     "killed": "elk",
     "photo": "IMG_2380.jpg",
     "portrait": "Y",
-    "description": "Haynes posing with an elk near the Spirit Lake Highway."
+    "description": "William Haynes poses with an elk in a photo police say was taken from his cellphone. ",
+    "case_note": "\"During Officer Budai's interview with W. Haynes on March 12, 2017, he indicated that the text messages he sent to the Dills' and [redacted] about the \"Game Wardens\" was after he was contacted by Officers Bahrenburg and Budai. He said he left the area and tried to contact the other people not to shoot because the Officers were in the area.\"",
+    "attribution": "excerpt from WDFW case file"
   }
 ]

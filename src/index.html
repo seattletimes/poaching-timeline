@@ -3,37 +3,57 @@
   <head>
     <%= t.include("partials/_head.html", grunt.data.json) %>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
   </head>
   <body>
 
     <responsive-child>
       <main class="interactive">
-        <h1>Investigating poachers</h1>
+        <h1>Case files outline poaching ring’s alleged activities in Washington</h1>
         <p class="chatter">
-          PLACEHOLDER CHATTER: Over a two year period, William Haynes and other hunters allegedly conducted more than 20 poaching expeditions, according to case files from WDFW officers. The case relies heavily on photos shared by Haynes himself over text message and social media, many of which were geotagged by his phone. Use the timeline below to view images from the case and maps of poaching locations.
+          The Washington Department of Fish &amp; Wildlife believes a group of seven people killed dozens of animals over two years in the Gifford Pinchot National Forest. Investigators have documented more than two dozen trips taken by members of the group. The case relies heavily on photos, videos, text messages and social media communications contained on the suspects’ phones. Investigators were able to visit many of the sites where they believe bears, bobcats and elk were killed because photos and videos contained geotags. See those locations and images from the case files.
         <div class="timeline-container">
-          <svg class="timeline" viewBox="0 0 600 20" width="600" height="20"></svg>
+          
           <div class="iterate">
             <button class="prev">&laquo; Previous</button>
+            <svg class="timeline" viewBox="0 0 600 20" width="600" height="20"></svg>
             <button class="next">Next &raquo;</button>
           </div>
         </div>
         <div class="event">
-          <div class="map-container">
-            <leaflet-map class="locator" fixed>
-              <tile-layer layer="esriTopographic"></tile-layer>
-            </leaflet-map>
-            <div class="no-map">
-              No GPS coordinates were specified for this event.
+
+          <div class="details-map">
+      
+            <div class="details"></div>
+
+            <div class="map-container">
+              <div class="no-map">
+                <div class="note-text">
+                  <i class="material-icons error">error</i> No GPS coordinates were specified for this event
+                </div>
+              </div>
+              <leaflet-map class="locator" fixed>
+                <tile-layer layer="esriTopographic"></tile-layer>
+              </leaflet-map>
+  <!--             <div class="no-map">
+                No GPS coordinates were specified for this event.
+              </div> -->
             </div>
-          </div>
-          <div class="details"></div>
+        </div>
+
+        <div class="spacer"></div>
+
+        <div class="photo-container"></div>
+
+        
         </div>
         <div class="source">
           Source: WDFW
         </div>
         <div class="credit">
-          Thomas Wilburn / The Seattle Times
+          Research: Evan Bush / The Seattle Times<br>
+          Development: Vanessa Mart&iacute;nez and Thomas Wilburn / The Seattle Times
         </div>
       </main>
     </responsive-child>

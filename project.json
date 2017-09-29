@@ -2,7 +2,7 @@
   "s3": {
     "stage": {
       "bucket": "projects-staging.seattletimes.com",
-      "path": "outdoor-jugular"
+      "path": "repulsive-avalanche"
     },
     "live": {
       "bucket": "projects.seattletimes.com",

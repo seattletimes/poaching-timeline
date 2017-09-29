@@ -11,6 +11,7 @@ var m = savage.dom;
 
 var svg = $.one("svg.timeline");
 var details = $.one(".event .details");
+var photoContainer = $.one(".photo-container");
 var [, , width, height] = svg.getAttribute("viewBox").split(" ").map(Number);
 
 var mapContainer = $.one(".map-container");
@@ -19,6 +20,8 @@ var map = mapElement.map;
 var leaflet = mapElement.leaflet;
 
 var template = require("./lib/dot").compile(require("./_details.html"));
+var photoTemplate = require("./lib/dot").compile(require("./_photo.html"));
+
 
 var lookup = {};
 
@@ -65,7 +68,7 @@ window.poachingData.forEach(function(event, i) {
   }
 
   var [month, day, year] = event.date.split("/").map(n => parseInt(n, 10));
-  var months = [null, "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+  var months = [null, "Jan.", "Feb.", "March", "April", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."];
   event.dateText = `${months[month]} ${day}, ${year}`;
 
   svg.appendChild(g);
@@ -78,6 +81,7 @@ var showDetails = function(date) {
   var data = lookup[date];
   if (!data) return;
   details.innerHTML = template(data);
+  photoContainer.innerHTML = photoTemplate(data);
   if (data.lat) {
     mapContainer.classList.remove("hide");
     var img = $.one("img", details);
@@ -90,6 +94,7 @@ var showDetails = function(date) {
     currentMarker.classList.add("active");
   } else {
     mapContainer.classList.add("hide");
+    currentMarker.classList.remove("active");
   }
 };
 
