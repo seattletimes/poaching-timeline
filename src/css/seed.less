@@ -21,7 +21,12 @@ h1 {
   @size: 20px;
   overflow: hidden;
   padding: 10px;
-  
+
+  @media @mobile {
+    text-align: center;
+    line-height: 1;
+  }
+
   .block {
     width: @size;
     height: @size;
@@ -30,6 +35,8 @@ h1 {
     border: 1px solid white;
 
     @media @mobile {
+      float: none;
+      display: inline-block;
       width: @size * .75;
       height: @size * .75;
     }
