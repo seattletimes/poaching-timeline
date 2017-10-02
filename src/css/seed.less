@@ -17,48 +17,28 @@ h1 {
   }
 }
 
-.timeline {
-  display: block;
-  margin: auto;
-  max-width: 100%;
+.timeline-blocks {
+  @size: 20px;
+  overflow: hidden;
+  padding: 10px;
+  
+  .block {
+    width: @size;
+    height: @size;
+    background: @df-light-gray;
+    float: left;
+    border: 1px solid white;
 
-  .time {
-    stroke: black;
-  }
-
-  .dot {
-
-    .outer {
-      fill: white;
-      stroke: @df-middle-gray;
+    @media @mobile {
+      width: @size * .75;
+      height: @size * .75;
     }
 
-    .inner {
-      fill: white;
-    }
-
-    &.photo .inner {
-      fill: fade(@st-dark-blue, 40%);
-    }
-
-    &.mapped .inner {
-      fill: fade(@st-dark-green, 40%);
-    }
-
-    &.active .outer {
-      // stroke-width: 2px;
-      stroke: @df-dark-gray;
-      fill: @df-off-white;
-    }
-
-    &.active.photo .inner {
-      fill: @st-dark-blue;
-    }
-
-    &.active.mapped .inner {
-      fill: @st-dark-green;
-    }
-
+    &.photo { background: fade(@st-dark-blue, 40%) }
+    &.mapped { background: fade(@st-dark-green, 40%) }
+    &.active { border-color: @df-middle-gray }
+    &.active.photo { background: @st-dark-blue }
+    &.active.mapped { background: @st-dark-green }
   }
 }
 

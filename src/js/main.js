@@ -6,13 +6,10 @@ require("component-responsive-frame/child");
 require("component-leaflet-map");
 
 var $ = require("./lib/qsa");
-var savage = require("savage-query");
-var m = savage.dom;
 
-var svg = $.one("svg.timeline");
+var blockTime = $.one(".timeline-blocks");
 var details = $.one(".event .details");
 var photoContainer = $.one(".photo-container");
-var [, , width, height] = svg.getAttribute("viewBox").split(" ").map(Number);
 
 var mapContainer = $.one(".map-container");
 var mapElement = $.one("leaflet-map");
@@ -24,18 +21,10 @@ var photoTemplate = require("./lib/dot").compile(require("./_photo.html"));
 
 var lookup = {};
 
-svg.appendChild(m("line", {
-  x1: height,
-  x2: width - height,
-  y1: height * .5,
-  y2: height * .5,
-  class: "time"
-}));
-
 var onClick = function() {
   var date = this.getAttribute("id");
-  savage(".dot.active").removeClass("active");
-  savage(this).addClass("active");
+  $(".block.active").forEach(el => el.classList.remove("active"));
+  this.classList.add("active");
   showDetails(date);
 }
 
@@ -45,15 +34,6 @@ window.poachingData.forEach(function(event, i) {
   var type = event.photo ? "photo" : "no-photo";
   type += event.lat ? " mapped" : " no-map";
   if (!i) type += " active";
-
-  var center = (width - height * 2) * i / (poachingData.length - 1) + height;
-
-  var g = m("g", { class: "dot " + type, id: event.date }, [
-    m("circle", { cx: center, cy: height * .5, r: height * .45, class: "outer" }),
-    m("circle", { cx: center, cy: height * .5, r: height * .25, class: "inner" })
-  ]);
-
-  g.addEventListener("click", onClick);
 
   if (event.lat) {
     var marker = leaflet.marker([event.lat, event.long], {
@@ -66,12 +46,15 @@ window.poachingData.forEach(function(event, i) {
     marker.addTo(map);
   }
 
+  var block = document.createElement("div");
+  block.className = "block " + type;
+  block.id = event.date;
+  blockTime.appendChild(block);
+  block.addEventListener("click", onClick);
+
   var [month, day, year] = event.date.split("/").map(n => parseInt(n, 10));
   var months = [null, "Jan.", "Feb.", "March", "April", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."];
   event.dateText = `${months[month]} ${day}, ${year}`;
-
-  svg.appendChild(g);
-
 });
 
 var currentMarker = null;
@@ -100,7 +83,7 @@ var showDetails = function(date) {
 showDetails(window.poachingData[0].date);
 
 var clickIteration = function() {
-  var currentDot = $.one(".dot.active");
+  var currentDot = $.one(".block.active");
   var currentDate = currentDot.id;
   var currentItem = lookup[currentDate];
   var currentIndex = window.poachingData.indexOf(currentItem);
@@ -109,8 +92,8 @@ var clickIteration = function() {
   if (index >= window.poachingData.length) index = window.poachingData.length - 1;
   var dest = window.poachingData[index];
   showDetails(dest.date);
-  savage(currentDot).removeClass("active");
-  savage(`[id="${dest.date}"]`).addClass("active");
+  currentDot.classList.remove("active");
+  $.one(`.block[id="${dest.date}"]`).classList.add("active");
 };
 
 $(".iterate button").forEach(el => el.addEventListener("click", clickIteration));
