@@ -22,7 +22,6 @@ var leaflet = mapElement.leaflet;
 var template = require("./lib/dot").compile(require("./_details.html"));
 var photoTemplate = require("./lib/dot").compile(require("./_photo.html"));
 
-
 var lookup = {};
 
 svg.appendChild(m("line", {
