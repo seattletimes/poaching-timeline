@@ -191,7 +191,7 @@ h1 {
         display: none;
       }
       .no-map {
-        display: block;
+        .display-flex();
       }
     }
 
@@ -217,15 +217,11 @@ h1 {
       background: @df-off-white;
       color: @df-charcoal;
       font-size: 20px;
+      padding: 60px;
       text-align: center;
-      padding: 20px;
-
-      // @media @mobile {
-      //   left: 1%;
-      // }
+      .justify-content(center);
+      .flex-direction(column);
     }
-
-
 
     .material-icons.error {
       color: @st-dark-red;
